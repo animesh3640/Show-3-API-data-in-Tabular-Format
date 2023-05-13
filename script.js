@@ -1,9 +1,11 @@
 const btn1 = document.getElementById("btn");
+const heading = document.getElementById("heading");
 const table1 = document.getElementById("table1");
 const table2 = document.getElementById("table2");
 const table3 = document.getElementById("table3");
 
 function PromiseAPI1(data){
+    heading.style.display="none"
     console.log(data)
     const tablebody = document.getElementById("table-body1")  
     table1.style.display="block"
