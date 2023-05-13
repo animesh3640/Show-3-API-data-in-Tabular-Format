@@ -1,18 +1,29 @@
 #btn{
     padding: 15px;
-    width: 98vw;
-    border: 1px solid blue;
-    background-color: #D9D9D9;
+    width: 97vw;
+    border: 1px solid rgb(197, 197, 249);
+    background-color : rgb(239, 243, 243);
     border-radius: 5px;
-    margin: auto;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+#heading{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#btn:hover{
+    color:  white;
+    background-color: gray;
+    border: 1px solid rgb(0, 0, 32);
 }
 
 #table1{
     display: none;
     border-collapse: collapse;
-    width: 98vw;
+    width: 1250px;
     background-color: #D9D9D9;
-
+    margin: auto;
+    margin-bottom: 20px;
 }
 td, th {    
     border: 1px solid white;
@@ -23,9 +34,11 @@ td, th {
 #table2{
     color: white;
     border-collapse: collapse;
-    width: 98vw;
+    width: 1250px;
     background-color: black;
     display: none;
+    margin: auto;
+    margin-bottom: 20px;
 }
 #timage{
     height: 100px;
@@ -40,6 +53,8 @@ td, th {
 #table3{
     display: none;
     border-collapse: collapse;
-    width: 100vw;
+    width: 700px;
     background-color: #D9D9D9;
+    margin: auto;
+    margin-bottom: 20px;
 }
